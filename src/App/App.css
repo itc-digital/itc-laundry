@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&subset=cyrillic');
+
+.layout {
+  min-height: 100vh;
+}
+
+.container-fixed {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container-fixed {
+    width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fixed {
+    width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fixed {
+    width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fixed {
+    width: 1140px;
+  }
+}
